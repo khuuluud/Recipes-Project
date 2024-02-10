@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipes</title>
+  <link rel="shortcut icon" href="img/yummy.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="" />
+</head>
+
+<body>
+  <div class="nav-menu h-100 position-fixed d-flex">
+    <div class="nav-side d-flex flex-column justify-content-between h-100 p-4">
+      <div class="nav-link">
+        <ul class="list-unstyled overflow-hidden">
+          <li onclick="searchInput()" class="py-2  position-relative cursor-pointer">Search</li>
+          <li onclick="getCategory()" class="py-2 position-relative cursor-pointer">Caregory</li>
+          <li onclick="getArea()" class="py-2 position-relative cursor-pointer">Area</li>
+          <li onclick="getingrediants()" class="py-2 position-relative cursor-pointer">Ingredients</li>
+          <li onclick="getContact()" class="py-2 position-relative cursor-pointer">Contact us</li>
+        </ul>
+      </div>
+
+      <div class="nav-footer">
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+        <p>
+          Copyright Â© 2019 All Rights <br />
+          Reserved.
+        </p>
+      </div>
+    </div>
+
+    <div class="nav-header d-flex flex-column justify-content-between py-4 px-2 text-center text-black bg-white">
+      <img src="img/yummy.png" alt="logo" class="logo" />
+      <i id="open" class="fa-solid icon-open fa-align-justify fa-2x"></i>
+      <!-- <i id="close" class="fa-solid fa-x fa-2x"></i> -->
+      <div>
+        <i class="fa-solid fa-globe d-block"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+    </div>
+  </div>
+  <!-- search -->
+  <div class="search">
+    <div class="container w-75" id="searchSection">
+    
+    </div>
+  </div>
+  <!-- home -->
+  <div class="home">
+    <div class="container  ">
+      <div class="row mb-5" id="rowData">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- details -->
+  <div class="details">
+    <div class="container">
+      <div class="row" id="rowData">
+       
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- contact us -->
+
+  
+  
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

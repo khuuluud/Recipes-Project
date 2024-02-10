@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: white;
+}
+.logo{
+    width: 45px;
+}
+i{
+    cursor: pointer;
+}
+.nav-menu{
+    z-index: 999;
+}
+.nav-side{
+    background-color: black;
+}
+/* home */
+
+.layer{
+    background-color:#f9f6f6ca;
+  
+width: 100%;
+height: 100%;
+top: 100%;
+transition: all 0.5s;
+
+}
+.meal:hover .layer{
+    top: 0;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
